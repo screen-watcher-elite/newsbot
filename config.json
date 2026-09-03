@@ -1,0 +1,90 @@
+{
+  "posts": 10,
+
+  "search": {
+    "region": "us-en",
+    "timelimit": "d",
+    "safesearch": 1,
+    "throttleMs": 1200,
+    "resultsPerQuery": 25,
+    "queries": [
+      { "domain": "world",         "query": "top world news today" },
+      { "domain": "politics",      "query": "politics government news today" },
+      { "domain": "business",      "query": "business markets economy news today" },
+      { "domain": "technology",    "query": "technology AI news today" },
+      { "domain": "science",       "query": "science space research news today" },
+      { "domain": "health",        "query": "health medicine news today" },
+      { "domain": "climate",       "query": "climate environment weather news today" },
+      { "domain": "sports",        "query": "sports headlines today" },
+      { "domain": "entertainment", "query": "entertainment film music news today" },
+      { "domain": "india",         "query": "india news today" }
+    ]
+  },
+
+  "feeds": {
+    "enabled": true,
+    "maxAgeHours": 24,
+    "list": [
+      { "name": "BBC World",      "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
+      { "name": "BBC Top",        "url": "https://feeds.bbci.co.uk/news/rss.xml" },
+      { "name": "NPR",            "url": "https://feeds.npr.org/1001/rss.xml" },
+      { "name": "Al Jazeera",     "url": "https://www.aljazeera.com/xml/rss/all.xml" },
+      { "name": "Guardian World", "url": "https://www.theguardian.com/world/rss" },
+      { "name": "Sky News",       "url": "https://feeds.skynews.com/feeds/rss/world.xml" },
+      { "name": "CBS World",      "url": "https://www.cbsnews.com/latest/rss/world" },
+      { "name": "NDTV",           "url": "https://feeds.feedburner.com/ndtvnews-top-stories" }
+    ]
+  },
+
+  "scrape": {
+    "enabled": true,
+    "concurrency": 4,
+    "maxCharsPerArticle": 2600,
+    "articlesPerStory": 2
+  },
+
+  "llm": {
+    "models": [],
+    "pinModels": false,
+    "temperature": 0.3,
+    "maxTokens": 900,
+    "appName": "NewsBot",
+    "rpm": 15,
+    "concurrency": 1,
+    "dailyBudget": 50
+  },
+
+  "diversity": {
+    "oneStoryPerDomain": true,
+    "maxSubjectOverlap": 0.3
+  },
+
+  "images": {
+    "policy": "safe",
+    "perPost": 2,
+    "generateCard": true,
+    "browserPath": "",
+    "minBytes": 12000
+  },
+
+  "cluster": {
+    "similarityThreshold": 0.34,
+    "minSources": 1,
+    "blockedPatterns": [
+      "horoscope",
+      "\\bodds\\b.*\\bbetting\\b",
+      "deal of the day",
+      "coupon",
+      "sponsored"
+    ]
+  },
+
+  "dedupe": {
+    "enabled": true,
+    "retentionDays": 5
+  },
+
+  "output": {
+    "dir": "output"
+  }
+}

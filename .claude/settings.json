@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "approvedTools": [
+    "bash",
+    "view_file",
+    "edit_file",
+    "grep_search",
+    "run_command"
+  ],
+  "preferences": {
+    "telemetry": false,
+    "theme": "dark"
+  }
+}

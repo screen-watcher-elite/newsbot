@@ -1,0 +1,60 @@
+{
+  "index": 2,
+  "angle": "THE_CONTRAST",
+  "generatedAt": "2026-09-03T11:03:44.514Z",
+  "model": "minimax/minimax-m3:free",
+  "confidence": 0.72,
+  "charCount": 174,
+  "text": "USA hasn't lost a FIBA Women's World Cup game since September 2006. Nine players on this 2026 roster have never been to one. They open Friday vs. China in Berlin. — USA TODAY",
+  "hashtags": [
+    "#FIBAWorldCup"
+  ],
+  "thread": [
+    "The newcomers include Aliyah Boston, Paige Bueckers, Caitlin Clark, Angel Reese and six others. Breanna Stewart joins Sue Bird and Diana Taurasi as the only US women with four World Cup appearances.",
+    "All 36 games stream on HBO Max; 17 air on TNT and truTV, including every U.S. game."
+  ],
+  "altText": "USA women's basketball players warming up in red, white and blue jerseys before a FIBA World Cup game.",
+  "card": "card.png",
+  "images": [
+    {
+      "file": "image-1.jpg",
+      "tier": "B",
+      "safeToPublish": true,
+      "license": "Public domain",
+      "creator": "Berenson, Senda, [from old catalog] ed",
+      "provider": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABasket%20ball%20for%20women%20as%20adopted%20by%20the%20Conference%20on%20physical%20training%2C%20held%20in%20June%2C%201899%20(IA%20basketballforwom00bere%200).pdf"
+    },
+    {
+      "file": "image-2.jpg",
+      "tier": "B",
+      "safeToPublish": true,
+      "license": "Public domain",
+      "creator": "Women's progressive farmers' association. [from old catalog]",
+      "provider": "Wikimedia Commons",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3APrograms%20of%20Women's%20progressive%20farmers'%20association%20(IA%20programsofwomens00wome).pdf"
+    }
+  ],
+  "sources": [
+    {
+      "source": "USA TODAY",
+      "title": "Who will USA play in 2026 FIBA Women's World Cup group phase? Full schedule",
+      "url": "https://www.usatoday.com/story/sports/wnba/2026/09/03/2026-fiba-womens-world-cup-group-phase-usa-schedule-opponents/91570498007/"
+    },
+    {
+      "source": "USA TODAY",
+      "title": "Is Caitlin Clark in FIBA Women's World Cup? Team USA roster, schedule",
+      "url": "https://www.usatoday.com/story/sports/wnba/2026/09/03/caitlin-clark-fiba-usa-roster-basketball-womens-world-cup/91560310007/"
+    },
+    {
+      "source": "Yahoo Sports",
+      "title": "USA Basketball give Caitlin Clark new nickname ahead of FIBA World Cup",
+      "url": "https://sports.yahoo.com/articles/usa-basketball-caitlin-clark-nickname-090000816.html"
+    },
+    {
+      "source": "Sporting News",
+      "title": "Ranking the 2026 FIBA Women's World Cup teams 1-16, from best (USA) to worst (South Korea)",
+      "url": "https://www.msn.com/en-us/sports/basketball/ranking-the-2026-fiba-women-s-world-cup-teams-1-16-from-best-usa-to-worst-south-korea/ar-AA2btKwm"
+    }
+  ]
+}

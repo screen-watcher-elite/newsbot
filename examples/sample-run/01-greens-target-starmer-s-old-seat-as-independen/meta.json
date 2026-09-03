@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "angle": "THE_NUMBER",
+  "generatedAt": "2026-09-03T11:03:09.482Z",
+  "model": "minimax/minimax-m3:free",
+  "confidence": 0.78,
+  "charCount": 212,
+  "text": "A Green Party leader wants the seat Keir Starmer is vacating — and in 2024, an independent took nearly 19% there on a Gaza platform, plus a Green at 10%+. Labour's once-comfortable margin looks thin. — Al Jazeera",
+  "hashtags": [
+    "#UKPolitics"
+  ],
+  "thread": [
+    "Polanski, a London Assembly member but not an MP, says he's \"so excited by the prospect\" of Holborn and St Pancras. He still needs local Greens to formally select him, and splits over a Palestinian candidate have been reported.",
+    "Starmer announced Tuesday he was quitting as MP after 11 years, two months after leaving No 10. Applications for Labour's candidate close Friday."
+  ],
+  "altText": "A street scene in the Holborn and St Pancras area of London, showing typical terraced buildings and a Tube station entrance.",
+  "card": "card.png",
+  "images": [
+    {
+      "file": "image-1.jpg",
+      "tier": "B",
+      "safeToPublish": true,
+      "license": "CC0",
+      "creator": "John K Thorne",
+      "provider": "Openverse / flickr",
+      "sourcePage": "https://www.flickr.com/photos/89918055@N05/24067008653"
+    },
+    {
+      "file": "image-2.jpg",
+      "tier": "B",
+      "safeToPublish": true,
+      "license": "CC0",
+      "creator": "John K Thorne",
+      "provider": "Openverse / flickr",
+      "sourcePage": "https://www.flickr.com/photos/89918055@N05/24398313640"
+    }
+  ],
+  "sources": [
+    {
+      "source": "BBC Top",
+      "title": "Zack Polanski says he'll run for former PM Starmer's seat in by-election",
+      "url": "https://www.bbc.co.uk/news/articles/cge41ee40vwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Green Party leader Zack Polanski to stand in by-election for Starmer’s seat",
+      "url": "https://www.aljazeera.com/news/2026/9/3/green-party-leader-zack-polanski-to-stand-in-by-election-for-starmers-seat?traffic_source=rss"
+    },
+    {
+      "source": "Guardian World",
+      "title": "Green party leader Zack Polanski seeks to stand in byelection for Keir Starmer seat",
+      "url": "https://www.theguardian.com/politics/2026/sep/03/zack-polanski-stand-keir-starmer-seat-green-party-candidate"
+    }
+  ]
+}

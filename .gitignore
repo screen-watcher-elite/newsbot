@@ -1,0 +1,9 @@
+# Secrets — never commit
+.env
+
+# Runtime state and generated bundles
+state/
+output/
+
+node_modules/
+*.log

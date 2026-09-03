@@ -1,0 +1,17 @@
+{
+  "name": "newsbot",
+  "version": "1.0.0",
+  "description": "Gathers the day's news, writes ten different X posts, and bundles each with licence-cleared images for manual review and upload.",
+  "type": "module",
+  "main": "newsbot.mjs",
+  "bin": { "newsbot": "./newsbot.mjs" },
+  "scripts": {
+    "start": "node newsbot.mjs",
+    "hot": "node newsbot.mjs --region wt-wt -q \"global AI agents automation\" -q \"international gadgets spatial tech wearable robotics\" -q \"global space exploration aerospace\" -q \"global fintech crypto digital assets economy\" -q \"international biohacking longevity health science\"",
+    "check": "node newsbot.mjs --check",
+    "dry": "node newsbot.mjs --dry-run"
+  },
+  "engines": { "node": ">=18.17" },
+  "dependencies": {},
+  "private": true
+}
